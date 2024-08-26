@@ -1,0 +1,1920 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "ERPMETContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "biz.erpmet",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "Tables": [
+      {
+         "Name": "[dbo].[AcAceptaRechazaCancelacionHist]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACActivoFijo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACActivoFijoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACActivoFijoFoto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAddendasCampos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAddendasProductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAditivasExplosion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAditivasExplosionDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAjustesPedidos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenConsecutivo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenEntradas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenEntradasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenOProduccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenOProduccionDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACAlmacenSaldosMensuales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenSalidaDetCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenSalidas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenSalidasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenTraspasos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenTraspasosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcAlmacenUbicaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosEgresos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosEgresosCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosEgresosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosEgresosInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosEstadoCuenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosIngresos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosIngresosCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosIngresosFacturas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcBancosTraspasos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatAcreedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatAduanasSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatBancosSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatCategoriasProrrateo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatCiudades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatClavesTransferencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatCodigosPostalesSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatConceptosIETU]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatContratosStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatDeudores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACCategoriaActivoFijo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatEstados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatFlujoEfectivoOtrosIngresosEgresos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatFlujos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatFormasPagoSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatGiros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatInsumosProrrateo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatMetodosPagoSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatMonedas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatMonedasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatNumsPedimentoAdSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatPaises]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatPartidaFlujo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatPatentesAduanalesSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatPlantillasCorreo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatProductosServicioSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatRegimenesFiscalesSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTasaOCuotaSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoChequeDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoCheques]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoClientesCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoConceptosCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoDepositos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoDepositosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoProveedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoProveedorCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposComprobanteSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposFactorSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposImpuestos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposNC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposRelacionSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTiposRetenciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatTipoUnidadesNegocio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatUnidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatUnidadesSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCatUsosCFDISAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCFDITraslado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCFDITrasladoCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCFDITrasladoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCFDITrasladoDirecciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCFDITrasladoRelac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesAddendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesAntilavado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesAntilavadoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesConsecutivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturas2017]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasCFDIRelac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasDetAduana]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasDetCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNC2017]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNcCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNCCFDIRelac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNCCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNCDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesFacturasNCDetCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesObras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesOperadores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesPlantas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesRemisiones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesRemisionesDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesResponsablesRemisiones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesSolicitantes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcClientesTransportes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcComplementoPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcComplementoPagoCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcComplementoPagoCFDRelac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcComplementoPagoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcConceptosDetNC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCondicionesPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcConsecutivosCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcConstanciasRetenciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcConstanciasRetencionesCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcConstanciasRetencionesDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcContratos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcContratosDatosAdicionales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcContratosDatosAdicSeguridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcContratosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcContratosOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcContratosOCDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCostosXProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcCuentasBancarias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcExplosionInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasAddendasCampos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasAddendasProductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasProveedoresCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasProveedoresDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasProveedoresNC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFacturasSeries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFamilias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcFlujoEfectivoOtrosIngresosEgresos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGastosFinancieros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGastosFinancierosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGastosXComprobar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGastosXComprobarDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGastosXComprobarDetDiot]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGeneradorPolizaCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGeneradorPolizaInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcGeneradorPolizas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcLayoutCW]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcLayoutCWDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcMetodoPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcModelosPoliza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcModelosPolizaCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcModelosPolizaInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaCatalogoConceptos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaModelos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaModelosCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaModelosInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaPoliza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaPolizaCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaPolizaInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcNominaTipos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcOrdenProduccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcOrdenProduccionDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcPedidos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcPedidosBitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcPedidosDescuentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcPedidosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProrrateoCostos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProrrateoCostosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProveedoresCertificados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProveedoresCFDs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACProveedoresInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProveedoresXML]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProveedoresXMLDocRel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProyectoConceptos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProyectoPartidas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProyectosConsecutivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcProyectosNominaModelos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelAforoProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelClienteCfdiEgreso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelCuentaProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelCuentaProyectoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelInterestaProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelRemanentesProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelSeleccionProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRelSeleccionProyectoAcum]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRequisicionBitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRequisicionDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcRequisiciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ACResponsables]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcSolicitudMaterial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcSolicitudMaterialDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcTipDocAlmacen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcTipoFiscal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcTipoMovBancos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcTiposCuadrillaNomina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcTiposInsumos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcUnidadesNegocio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AgaCatAcreedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AgaCatIVA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AgaCME]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoAnticiposDestajistas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoAvanceDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoCatConceptos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoCatContratistas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoCatDescuentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoCatDestajistas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoConceptosXDestajista]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoDestajistasContratistasPU2010]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoDestajosEst]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoDestajosEstCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoDestajosEstDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoDestajosFolios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOEstimadoTerminacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOEstimadoTerminacionDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoExpXConcepto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoExpXPartida]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoMatrizOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoMatrizOCDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOMizar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOMizarDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPartidas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPartidasAvanceFisico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPartidasAvanceFisicoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOPlantillasContratos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPresupuestoControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPresupuestoControlOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPresupuestoControlOCDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPresupuestoControlPeriodos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPresupuestoControlPrecedencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoProgramaObra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoProgramaSuministros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPrototipos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoPrototiposDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubContratos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubcontratosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubcontratosDetCostos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubContratosEst]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubContratosEstDescuentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubContratosEstDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubContratosEstDetCC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubcontratosOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AoSubcontratosOCDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOTipoProyectos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AOUnidadNegociogeo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiCatModulos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiCatProcesos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiHistoricoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiTabla]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Centros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CrmAddendasCampos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CrmAddendasProductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CrmFacturasAddendasCampos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbAgrupadorSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbAgrupadorSATN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCatMetodosPagoSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCatMonedasSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCatTipoImpuestos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCatTipoRetenciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCatTiposPolizaSAT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbConceptosDIOT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbConsecutivosPolizasXAnio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbConsecutivosPolizasXMes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbConstanciaRetencionDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbConstanciaRetenciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCuentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbCuentasDIOT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbDIOTTipoOperacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbDIOTTipoTerceros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetAP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetCheques]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetCompExt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetCompNal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetCompNalOtr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetComprobantes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetDC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetNodoCheques]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetNodoOtrMetodosPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetNodoTransferencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetPP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDetTransferencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasDIOT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasIETU]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPolizasIETUConceptos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbPrefijos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ctbSaldosCuentasProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ctbSaldoXFlujo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbTiposCuenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CtbTiposPoliza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAccesorios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAjusteClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvApartados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAplicacionApartados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAplicacionApartadosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAplicacionDepositos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAplicacionDepositosCFDI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAplicacionDepositosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvAvales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvBeneficiarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCamposRequeridos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCancelaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCasa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCatConceptosCFDI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCEtapas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCEtapasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClienteEscrituracion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClientesFacturas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClientesFacturas2017]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClientesFacturasCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClientesFacturasCFDIRelac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvClientesFacturasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvComisiones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvComisionesDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvComplementoPago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvComplementoPagoCFD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvComplementoPagoCFDIRelac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvComplementoPagoDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvConstructoras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvContratos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvContratosAccesorios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvConyuges]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCotizaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCotizacionesDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCreditos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDepositosCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDepositosSofol]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDepositosSofolCtas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDepositosSofolDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDesarrollos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDisponibilidadCasaDeseada]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDocumentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvDocumentosClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvEconomia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvEmpresas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvEtapas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvEtapasClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvEtapasViviendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFAplicarAhorro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFCreditoConyugal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFDestinoCredito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFEscolaridad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFEstadoCivil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFEstadoVivienda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFFormaCredito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFLineaCredito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFlujoClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFlujoClientesDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFlujoViviendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFOpcCreditoVSM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFPlazosCredito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFTipoCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFTipoDiscapacidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFTipoMercado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvFTipoOfertacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvGravamenes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvIdentificacionesOficiales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvInmobiliarias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvManzanas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvMedios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvNotarias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvNotasEscrituras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvOpcionesPagoConEnganche]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPagoLiberacionViviendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPagoLiberacionViviendasDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPaquetesInstituciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvParametros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPCEComisiones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPEtapas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPlanesPagos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPlanesPagosDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPlantillasContratos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPlazas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPPECostos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPPPresupuestos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPromociones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPromotoras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPropietarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPrototipos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPrototiposAccesorios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvPrototiposAdjuntos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosAccesorios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosCreditos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosCuentasDepClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosCuentasDepSofoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosCuentasNotas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosCuentasXPlan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosDescuentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosPaquetes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosPreciosListas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosPromociones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosPrototipos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProyectosVendedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRangoIngresoMC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRangoIngresoMNC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRangoMontoRenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRangoPersonasHabitanCasa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvReferencias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRegimenMatrimonial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvReubicacionesViviendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRfcClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvRfcClientesDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvSeries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvSindicatos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvSofoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvSubtiposTerrenos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvSucursales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTipoLote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTiposDescuentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTiposFallas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTiposGravamenesFinancieros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTiposNotas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTiposPlan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTipoVivienda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvVendedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvViviendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvViviendasAccesorios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FEFoliosCFDxRFC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FENeodataCertificados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FENeodataFolios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FENeodataMatrizSucursales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FERegimenes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FESeriesDigitalesXRFC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GruposReportesEjecutivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GruposReportesEjecutivos2004]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NeoSysCatalogos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NeoSysCatalogosCamposOcultos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NeoSysCatalogosUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NeoSysCatalogosUsuarioC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NumerosConsecutivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Parametros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ParametrosCtasAntiLavado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ParametroUsuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Proyectos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProyectosAlmacenGeneral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProyectosDetTAC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProyectosPorcenAportSocios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuUnidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepDestajoNomina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepFinanciero]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportesEjecutivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportesEjecutivos2004]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportesEjecutivos2004Procesos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportesEjecutivos2004TDinamicas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportesEjecutivosOpciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportesEjecutivosTDinamicas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RPTCadenaSQL08]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RptControles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RPTOpciones08]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RptUsuarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RutaReportes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegGrupoPermisos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegPerfil]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegPermisos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegScriptsEjecutados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegSistemas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegUsuarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegUsuariosSistemas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegUsuariosXProyecto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SegUsuariosXProyectoRemesas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_CMBPermisoGrabado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_SegGrupoPermisos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_SegPermisos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Version]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "MetalitecPrueba\\NEODATA.ERPMET",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": true,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

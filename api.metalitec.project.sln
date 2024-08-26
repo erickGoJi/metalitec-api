@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.metalitec.project", "api.metalitec.project\api.metalitec.project.csproj", "{9415C0E2-B422-4418-82EB-C57A3D1FD2EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "biz.erpmet", "biz.erpmet\biz.erpmet.csproj", "{E18AB49A-8D00-4D90-8E5F-56EF6F563A81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal.erpmet", "dal.erpmet\dal.erpmet.csproj", "{6DB432D5-3166-4F32-A89B-EBF08D40A55C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal.metalitec", "dal.metalitec\dal.metalitec.csproj", "{A1A15AB2-B82E-445F-8931-C2E36A62B1CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "biz.metalitec", "biz.metalitec\biz.metalitec.csproj", "{971ED846-5653-4B4C-80BB-788F5970E52B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test.metalitec", "test.metalitec\test.metalitec.csproj", "{E80FEAC8-3FBA-4833-A0BE-A77769FB589A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "biz.admin", "biz.admin\biz.admin.csproj", "{5DB17359-925C-4AC4-B13A-B848D91791D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dal.admin", "dal.admin\dal.admin.csproj", "{7F701E1B-79FD-4850-A1BB-5E67BAD83934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "worker.service.metalitec", "worker.service.metalitec\worker.service.metalitec.csproj", "{321290FB-F9A2-4D9E-8B1F-23BEE3450C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9415C0E2-B422-4418-82EB-C57A3D1FD2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9415C0E2-B422-4418-82EB-C57A3D1FD2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9415C0E2-B422-4418-82EB-C57A3D1FD2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9415C0E2-B422-4418-82EB-C57A3D1FD2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18AB49A-8D00-4D90-8E5F-56EF6F563A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18AB49A-8D00-4D90-8E5F-56EF6F563A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18AB49A-8D00-4D90-8E5F-56EF6F563A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18AB49A-8D00-4D90-8E5F-56EF6F563A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB432D5-3166-4F32-A89B-EBF08D40A55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB432D5-3166-4F32-A89B-EBF08D40A55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB432D5-3166-4F32-A89B-EBF08D40A55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB432D5-3166-4F32-A89B-EBF08D40A55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A15AB2-B82E-445F-8931-C2E36A62B1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A15AB2-B82E-445F-8931-C2E36A62B1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A15AB2-B82E-445F-8931-C2E36A62B1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A15AB2-B82E-445F-8931-C2E36A62B1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971ED846-5653-4B4C-80BB-788F5970E52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971ED846-5653-4B4C-80BB-788F5970E52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971ED846-5653-4B4C-80BB-788F5970E52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971ED846-5653-4B4C-80BB-788F5970E52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80FEAC8-3FBA-4833-A0BE-A77769FB589A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80FEAC8-3FBA-4833-A0BE-A77769FB589A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80FEAC8-3FBA-4833-A0BE-A77769FB589A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80FEAC8-3FBA-4833-A0BE-A77769FB589A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB17359-925C-4AC4-B13A-B848D91791D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB17359-925C-4AC4-B13A-B848D91791D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB17359-925C-4AC4-B13A-B848D91791D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB17359-925C-4AC4-B13A-B848D91791D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F701E1B-79FD-4850-A1BB-5E67BAD83934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F701E1B-79FD-4850-A1BB-5E67BAD83934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F701E1B-79FD-4850-A1BB-5E67BAD83934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F701E1B-79FD-4850-A1BB-5E67BAD83934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321290FB-F9A2-4D9E-8B1F-23BEE3450C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321290FB-F9A2-4D9E-8B1F-23BEE3450C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321290FB-F9A2-4D9E-8B1F-23BEE3450C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321290FB-F9A2-4D9E-8B1F-23BEE3450C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B81D4768-8743-4D8B-81C7-D4DF165E6B01}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://minimalistdev.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = api.metalitec.project\\api.metalitec.project.csproj
+		SccProjectName1 = api.metalitec.project
+		SccLocalPath1 = api.metalitec.project
+		SccProjectUniqueName2 = biz.erpmet\\biz.erpmet.csproj
+		SccProjectName2 = biz.erpmet
+		SccLocalPath2 = biz.erpmet
+		SccProjectUniqueName3 = biz.metalitec\\biz.metalitec.csproj
+		SccProjectName3 = biz.metalitec
+		SccLocalPath3 = biz.metalitec
+		SccProjectUniqueName4 = dal.erpmet\\dal.erpmet.csproj
+		SccProjectName4 = dal.erpmet
+		SccLocalPath4 = dal.erpmet
+		SccProjectUniqueName5 = dal.metalitec\\dal.metalitec.csproj
+		SccProjectName5 = dal.metalitec
+		SccLocalPath5 = dal.metalitec
+		SccProjectUniqueName6 = test.metalitec\\test.metalitec.csproj
+		SccProjectName6 = test.metalitec
+		SccLocalPath6 = test.metalitec
+		SccProjectUniqueName7 = biz.admin\\biz.admin.csproj
+		SccProjectName7 = biz.admin
+		SccLocalPath7 = biz.admin
+		SccProjectUniqueName8 = dal.admin\\dal.admin.csproj
+		SccProjectName8 = dal.admin
+		SccLocalPath8 = dal.admin
+		SccProjectUniqueName9 = worker.service.metalitec\\worker.service.metalitec.csproj
+		SccProjectName9 = worker.service.metalitec
+		SccLocalPath9 = worker.service.metalitec
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,107 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace biz.metalitec.Models
+{
+    public partial class VwTransactioninterfacePurchaseorder
+    {
+        public int Id { get; set; }
+        public string PurchaseOrderName { get; set; }
+        public int FacilityId { get; set; }
+        public string Facility { get; set; }
+        public string PurchaseOrderDescription { get; set; }
+        public DateTime PurchaseOrderDate { get; set; }
+        public DateTime? PurchaseOrderDueDate { get; set; }
+        public string SupplierReference { get; set; }
+        public DateTime? ExchangeRateDate { get; set; }
+        public double? ExchangeRate { get; set; }
+        public string PurchaseOrderNotes { get; set; }
+        public DateTime? PurchaseOrderCreatedOn { get; set; }
+        public string PurchaseOrderCreatedBy { get; set; }
+        public DateTime? PurchaseOrderUpdatedOn { get; set; }
+        public string PurchaseOrderUpdatedBy { get; set; }
+        public int? LineNumber { get; set; }
+        public string PurchaseOrderItemName { get; set; }
+        public string PurchaseOrderItemAlternateName { get; set; }
+        public string PurchaseOrderItemDescription { get; set; }
+        public double? Length { get; set; }
+        public double? Width { get; set; }
+        public double? Weight { get; set; }
+        public double? Area { get; set; }
+        public string SupplierPartNumber { get; set; }
+        public string RollReference { get; set; }
+        public DateTime? RollDate { get; set; }
+        public DateTime? PurchaseOrderItemDueDate { get; set; }
+        public string DeliveryLocation { get; set; }
+        public string DeliveryYardReference { get; set; }
+        public double? OrderedQuantity { get; set; }
+        public double? ReceivedQuantity { get; set; }
+        public bool? ReceivedInFull { get; set; }
+        public int? InvoicedQuantity { get; set; }
+        public double? UnitPriceForeign { get; set; }
+        public double? UnitPriceHome { get; set; }
+        public string PriceUnit { get; set; }
+        public double? DiscountPercentage { get; set; }
+        public double? DiscountValueForeign { get; set; }
+        public double? DiscountValueHome { get; set; }
+        public double? TaxValueForeign { get; set; }
+        public double? TaxValueHome { get; set; }
+        public double? ValueBeforeDiscountForeign { get; set; }
+        public double? ValueBeforeDiscountHome { get; set; }
+        public double? ValueAfterDiscountForeign { get; set; }
+        public double? ValueAfterDiscountHome { get; set; }
+        public string PurchaseOrderItemNotes { get; set; }
+        public string Supplier { get; set; }
+        public string SupplierExternalReference { get; set; }
+        public string CostCodeName { get; set; }
+        public string CostCentreName { get; set; }
+        public string TaxCodeName { get; set; }
+        public string TaxCodeDescription { get; set; }
+        public string TaxCodeExternalReference { get; set; }
+        public double? TaxPercentage { get; set; }
+        public string ContractName { get; set; }
+        public string ContractDescription { get; set; }
+        public string Customer { get; set; }
+        public bool? DirectIssue { get; set; }
+        public string PaymentTerms { get; set; }
+        public string Currency { get; set; }
+        public string LineType { get; set; }
+        public string SupplierType { get; set; }
+        public string SupplierBillingAddressName { get; set; }
+        public string SupplierBillingAddressLine1 { get; set; }
+        public string SupplierBillingAddressLine2 { get; set; }
+        public string SupplierBillingAddressLine3 { get; set; }
+        public string SupplierBillingAddressLine4 { get; set; }
+        public string SupplierBillingAddressPostCode { get; set; }
+        public string SupplierBillingAddressCountry { get; set; }
+        public string SupplierBillingAddressContact { get; set; }
+        public string SupplierBillingAddressTelephone { get; set; }
+        public string SupplierBillingAddressFax { get; set; }
+        public string SupplierBillingAddressMobile { get; set; }
+        public string SupplierBillingAddressEMail { get; set; }
+        public string DeliveryAddressName { get; set; }
+        public string DeliveryAddressLine1 { get; set; }
+        public string DeliveryAddressLine2 { get; set; }
+        public string DeliveryAddressLine3 { get; set; }
+        public string DeliveryAddressLine4 { get; set; }
+        public string DeliveryAddressPostCode { get; set; }
+        public string DeliveryAddressContact { get; set; }
+        public string DeliveryAddressTelephone { get; set; }
+        public string DeliveryAddressFax { get; set; }
+        public string DeliveryAddressMobile { get; set; }
+        public string DeliveryAddressEMail { get; set; }
+        public int? UnitId { get; set; }
+        public int? BaseUnitId { get; set; }
+        public double? BaseUnitConversion { get; set; }
+        public int? ItemId { get; set; }
+        public int? ItemTypeId { get; set; }
+        public int SupplierId { get; set; }
+        public int? ContractId { get; set; }
+        public int? PurchaseOrderItemId { get; set; }
+        public int? CostCodeId { get; set; }
+        public string ProjectName { get; set; }
+        public string Contract { get; set; }
+        public string EdibarNos { get; set; }
+        public string ItemInventoryTrackingGuidId { get; set; }
+    }
+}

@@ -1,0 +1,1692 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "METALITECContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "biz.metalitec",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "Tables": [
+      {
+         "Name": "[dbo].[_Areas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[_NSItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[_SectionCat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[_Shape]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[_StrumItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[_Updated]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Activitylog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Addition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AdditionTemplate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AdditionTransport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AdditionWeight]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Address]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Application]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApplicationForPayment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApplicationForPaymentAgreedItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApplicationForPaymentCorrespondence]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApplicationForPaymentItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AuditLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BarcodeInterface]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BarcodeUploads]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CADInterface]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderAttachmentLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderClientChangeOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderClientDocumentLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderImpact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderKeyRequirements]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderNumber]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderRevision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeOrderValuation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CombinedMarkItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBatch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBatchContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBudget]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBudgetIITL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBudgetLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBudgetTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractBundle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractContact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractDetailedCADListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractDetailedCADListingBulkXML]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractDetailedCADListingRevalidate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractDrawing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractInvoiceSchedule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractItemCAM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractLot]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractLotRelease]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractLotUserDate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractLotUserDateProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractLotUserDateValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMark]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkInstancePWOCArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkItemInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkItemInstancePWOCArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkItemTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkPhase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkPhaseLot]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractMarkPhaseLotItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPhase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPrelimCADListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPrelimMark]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPrelimMarkSequence]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPrelimSequenceList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractPriority]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContractRevision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CostCentre]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CostCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Currency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CurrencyConversion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Document]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentAdditionalData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentDistributionList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentDistributionListRecipient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentInterface]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentInterfaceImportListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentPackage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentPackageDocument]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentPackageRecipient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentRevision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentRevisionCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentRevisionFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTransmittal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTransmittalDocument]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTransmittalReason]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTransmittalRecipient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTransmittalResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTransmittalRevision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EDIFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EDIFileContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeCalendar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeHourlyRate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeTimesheet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeTimesheetArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Enquiry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryExchangeRate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryMeetingNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryProjectPeople]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[errorlog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Estimate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateAssembly]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateAssemblyItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateAssemblyItemExtra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateAssemblyItemFitting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateAssemblyItemFittingProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateAssemblyItemUsageProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateCADListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateEnquiry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateExtra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateItemExtraRate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateItemExtraRateValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateItemFitting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateItemFittingProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateItemUsageProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateSubSection]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateSubsectionSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstimateSubsectionSetItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Extra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExtraCalculationType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExtraGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExtraGroupExtra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Facility]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FacilityCalendar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FacilityProcessWeeklyCapacity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FacilityTaskWeeklyCapacity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fitting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FittingGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FittingGroupItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FittingProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Grade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GradeCrossReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HotfixLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryBarcodeListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Item]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemClassification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemCrossReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemCustomer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemFinish]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemFinishCoat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemFinishPreparation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryExchangeLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryGroupProperty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryHistoryArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryInstanceHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryInstanceHistoryArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryProperty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryShape]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTestCertMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTrackingGuid]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTrackingGuidLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionArchiveLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLineArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLineInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLineInstanceArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLineInstancePWOCArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemInventoryTransactionLinkArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemLength]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemLocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemLocationRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemLocationRuleItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemLocationRuleParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemLocationRuleVM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemReservation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemReservationContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemReservationHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemShortcutCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSiteInventory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSiteInventoryHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSiteInventoryHistoryArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSiteInventoryInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSiteInventoryInstanceHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSiteInventoryInstanceHistoryArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSupplier]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSupplierLength]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemSupplierMinimumQuantity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemTracking]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemTrackingNextNumber]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemTransactionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemUsage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemUsageFitting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemUsageFittingPercentage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemUsageItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemUsageProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KeyRequirements]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Language]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LanguageString]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LanguageStringTranslation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Lookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LookupValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LottingDateDependencies]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Nesting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResult]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultAllocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultAllocationArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultArchiveLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultCuttingPlan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultItemDesign]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultItemListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultItemListingArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultSupply]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultSupplyArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultSupplyLength]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultSupplyLengthArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultSupplyLengthInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultSupplyLengthInstanceArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultWeldedBar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestingResultWeldedBarArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestResultsEstimateItemFitting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestResultsItemListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NestResultsStockListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PaymentTerms]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningCalendar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningCalendarBase]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningException]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningExceptionWorkingTime]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningLongRange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningLongRangeLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningLongRangeLineEvent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningLongRangeLineLotLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningTimePeriod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningWorkingTime]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningWorkWeek]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningWorkWeekDay]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningWorkWeekDayWorkingTime]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanningWorkWeekTimePeriod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PostProcessor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Process]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionContainer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionContainerItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionContainerItemArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionPackage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionPackageItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionPackageItemArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProcessCAMCrossReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProcessRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProcessSequence]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProposedMovement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProposedMovementItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionProposedMovementItemArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskExtractor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskExtractorType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskInstanceProperty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskProperty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskStrategy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRequiredTaskStrategyProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRuleParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRuleParameterRequiredTaskProperty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionRuleProcessor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionStage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplateProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplateProcessTiming]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplateRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplateRuleItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplateRuleParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionTemplateRuleVM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderArchiveLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderContractArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessPriority]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessQuantity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessQuantityArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessQuantityHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessQuantityHistoryArchive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessQuantityRequiredTaskInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkOrderProcessRequiredTaskInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkStation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkStationCalendar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkStationRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkStationRuleItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkStationRuleParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkStationRuleVM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionWorkstationWIP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Project]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseInvoiceCredit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseInvoiceCreditItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseInvoiceItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseInvoiceItemContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseInvoiceItemInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrderAuthorisation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrderItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrderItemExchange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrderItemInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSAnalysis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSAnalysisCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSAnalysisCategoryRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSAnalysisCategoryRuleItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSAnalysisCategoryUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSAnalysisListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSCategoryRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSCategoryRuleItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSCategorySet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSCategorySetCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSCategoryUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QSUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Region]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Report]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportBatch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportBatchGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportBatchLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportBatchParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportView]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportViewColumn]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoleObject]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoleObjectAction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoleReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RollReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RollReferenceItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RollReferenceLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesInvoiceItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesInvoiceItemInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesOrderItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesOrderItemInstance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SectionRollType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SectionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SectionTypeGrade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Shape]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShapeDimension]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SplitMarkItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StruMIS_Sessions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Supplier]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SupplierType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[sysdiagrams]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemAction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemActivitylog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemDataPort]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemFieldPrecision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemInstallationLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemModuleGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemModuleGroupModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemModuleGroupObject]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemModuleObject]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemNotificationMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObject]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectAction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectHiddenField]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectUserField]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectUserFieldData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectUserRestriction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemObjectUserRestrictionUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemOption]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemOptionGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemTaskExecutions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemUpdates]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TALLY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaxCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_FileUploads]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_NestingResultAllocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_NestingResultItemListing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_NestingResultLengths]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_ProductionWorkOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_ProductionWorkOrderTemplate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[temp_ProductionWorkOrderTemplateProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransactionImport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransactionInterface]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransactionInterfaceLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Unit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserAuthorisation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserAuthorisationLimit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserLoginHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserMyReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserRecentlyUsed]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserReportColumn]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserReportParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WebSessions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkstationProcess]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "MetalitecPrueba\\ACECAD.METALITEC",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": true,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

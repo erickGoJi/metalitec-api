@@ -1,0 +1,105 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace biz.metalitec.Models
+{
+    public partial class VwEnquirySearch
+    {
+        public int EnquiryId { get; set; }
+        public string Name { get; set; }
+        public string Customer { get; set; }
+        public string Contact { get; set; }
+        public string AddressType { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
+        public string Address3 { get; set; }
+        public string Address4 { get; set; }
+        public string PostCode { get; set; }
+        public string Country { get; set; }
+        public string Telephone { get; set; }
+        public string Fax { get; set; }
+        public string Mobile { get; set; }
+        public string Email { get; set; }
+        public string EnquiryCategory { get; set; }
+        public string ParentEnquiry { get; set; }
+        public string EstimateLink { get; set; }
+        public string Project { get; set; }
+        public string Location { get; set; }
+        public string SalesArea { get; set; }
+        public string BuildingType { get; set; }
+        public double? EnquirySize { get; set; }
+        public double? EnquiryWeight { get; set; }
+        public string DesignType { get; set; }
+        public string Designer { get; set; }
+        public string Architect { get; set; }
+        public string Engineer { get; set; }
+        public string QuantitySurveyor { get; set; }
+        public string Salesman { get; set; }
+        public string Estimator { get; set; }
+        public DateTime? DesignStartDate { get; set; }
+        public DateTime? DesignFinishDate { get; set; }
+        public int StatusId { get; set; }
+        public string Status { get; set; }
+        public string BidStatus { get; set; }
+        public DateTime? BidDate { get; set; }
+        public DateTime? DateWon { get; set; }
+        public double? FinalWeight { get; set; }
+        public double? FinalArea { get; set; }
+        public double? FinalValue { get; set; }
+        public double AdjustedWeight { get; set; }
+        public double AdjustedValue { get; set; }
+        public double? PercentReturn { get; set; }
+        public DateTime? EnquiryReceived { get; set; }
+        public DateTime? TenderReturnDate { get; set; }
+        public DateTime? DeclinedDate { get; set; }
+        public DateTime? OrderStartDate { get; set; }
+        public DateTime? SteelStartDate { get; set; }
+        public int FacilityId { get; set; }
+        public string Facility { get; set; }
+        public string Currency { get; set; }
+        public string Notes { get; set; }
+        public DateTime? UpdatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string CreatedBy { get; set; }
+        public string EnquiryNdaAgreement { get; set; }
+        public string EnquiryPreQualification { get; set; }
+        public string EnquiryScopeDesign { get; set; }
+        public string EnquiryScopeFab { get; set; }
+        public string EnquiryScopePrep { get; set; }
+        public string EnquiryScopeErection { get; set; }
+        public string EnquiryScopeBim { get; set; }
+        public string EnquiryScopeDetail { get; set; }
+        public string EnquiryScopePaint { get; set; }
+        public string EnquiryScopeFreight { get; set; }
+        public string EnquiryScopeCustom1 { get; set; }
+        public string EnquiryScopeCustom2 { get; set; }
+        public string EnquiryScopeCustom3 { get; set; }
+        public string EnquiryScopeCustom4 { get; set; }
+        public string EnquiryScopeCustom5 { get; set; }
+        public string EnquiryScopeCustom6 { get; set; }
+        public string EnquiryScopeCustom7 { get; set; }
+        public string EnquiryScopeCustom8 { get; set; }
+        public string EnquiryMaterialLeed { get; set; }
+        public string EnquiryMaterialBuyAmerican { get; set; }
+        public string EnquiryMaterialDomesticOnly { get; set; }
+        public string EnquiryMaterialUniqueMaterialCriteria { get; set; }
+        public string EnquiryFabPaintCert { get; set; }
+        public string EnquiryFabErectorCert { get; set; }
+        public string EnquiryFabLocalParticipation { get; set; }
+        public string EnquiryFabMWSbeParticipation { get; set; }
+        public string EnquiryFabShopCert { get; set; }
+        public string EnquiryFabNdtInsp { get; set; }
+        public string EnquiryFabMarketRetention { get; set; }
+        public string EnquiryAdminSalesTax { get; set; }
+        public string EnquiryAdminWarrantyPeriod { get; set; }
+        public string EnquiryAdminLdSPenalties { get; set; }
+        public string EnquiryAdminBidBond { get; set; }
+        public string EnquiryAdminPerfBond { get; set; }
+        public string EnquiryAdminOtherTaxes { get; set; }
+        public string EnquiryAdminPaymentTerms { get; set; }
+        public string EnquiryAdminRetentionTerms { get; set; }
+        public string EnquiryAdminCertifiedPayroll { get; set; }
+        public string EnquiryAdminOcipCcip { get; set; }
+    }
+}
